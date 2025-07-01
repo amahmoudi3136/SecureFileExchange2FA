@@ -1,0 +1,7 @@
+# .gitignore
+
+# Ignorer les fichiers temporaires de VS
+.vs/
+*.user
+*.suo
+*.sln.docstates

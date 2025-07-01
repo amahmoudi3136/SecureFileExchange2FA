@@ -1,9 +1,13 @@
-namespace SecureFileExchange2FA.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 
-public class User
+namespace SecureFileExchange2FA.Models
 {
-    public int Id { get; set; }
-    public string Email { get; set; }
-    public string PasswordHash { get; set; }
-    public string TotpSecret { get; set; }
+    [Table("Users")]
+    public class User
+    {
+        public int Id { get; set; }
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
+        public string TotpSecret { get; set; }
+    }
 }
