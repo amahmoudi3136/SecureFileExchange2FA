@@ -1,0 +1,6 @@
+@SecureFileExchange2FA_HostAddress = http://localhost:5183
+
+GET {{SecureFileExchange2FA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
