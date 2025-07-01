@@ -1,7 +1,29 @@
-# .gitignore
+# Build results
+bin/
+obj/
 
-# Ignorer les fichiers temporaires de VS
+# Visual Studio files
 .vs/
 *.user
 *.suo
+*.userosscache
 *.sln.docstates
+
+# Rider files
+.idea/
+
+# DotNet core files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Others
+*.vsix
+*.nupkg
+*.snk
